@@ -1,0 +1,94 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: radial-gradient(circle, #000000 60%, #111111 100%);
+  color: #00ffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Container */
+.container {
+  background-color: #1a1a1a;
+  padding: 60px 50px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 40px #00ffff33;
+  animation: glow 2s infinite alternate;
+  width: 400px;
+}
+
+
+/* Title */
+.container h1 {
+  font-size: 2.5rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.container p {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* Counter Number */
+#count {
+  font-size: 7rem;
+  margin: 40px 0;
+  color: #00ffff;
+  text-shadow: 0 0 40px #00ffff, 0 0 80px #00ffff;
+  font-weight: bold;
+}
+/* Button Group */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  background-color: #00ffff;
+  color: black;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #00ffff;
+}
+
+/* Button text alternative color (reset) */
+button:nth-child(2) {
+  background-color: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+button:nth-child(2):hover {
+  box-shadow: 0 0 25px #ff00ff;
+}
+
+/* Animation */
+@keyframes glow {
+  0% { box-shadow: 0 0 15px #00ffff44; }
+  100% { box-shadow: 0 0 25px #00ffffaa; }
+}
+

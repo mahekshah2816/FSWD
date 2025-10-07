@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Upload Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Job Portal Resume Upload</h1>
+    <p>Upload your resume (PDF only, max 2MB)</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="resume" accept=".pdf" required />
+      <button type="submit">Upload Resume</button>
+    </form>
+  </div>
+</body>
+</html>

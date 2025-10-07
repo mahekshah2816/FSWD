@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f0; /* light pink background */
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: #fff0f5; /* very light pink */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3); /* soft pink shadow */
+}
+
+h1, h2 {
+  color: #d63384; /* pink heading */
+}
+
+.poll button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff69b4; /* hot pink */
+  color: white;
+  transition: 0.3s;
+}
+
+.poll button:hover {
+  background-color: #d63384; /* deeper pink on hover */
+}
+
+.results p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #800040; /* dark pink/maroonish */
+}

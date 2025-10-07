@@ -1,0 +1,27 @@
+.list-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 600px;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+button {
+  padding: 6px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button.edit { background-color: #28a745; color: white; }
+button.delete { background-color: #dc3545; color: white; }
+button:hover { opacity: 0.8; }

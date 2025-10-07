@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background: #0f0f1f;
+  padding: 40px;
+  border-radius: 16px;
+  width: 500px;
+  color: #fff;
+  box-shadow: 0 0 30px #764af1;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.input-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.input-section button {
+  padding: 12px 18px;
+  background: #764af1;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.tasks-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-box {
+  background: #764af1;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.actions button {
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.mic-btn {
+  background: #ff2e63;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.mic-btn:hover {
+  transform: scale(1.1);
+}

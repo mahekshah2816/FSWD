@@ -1,0 +1,22 @@
+.video-detail {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+  color: #202020;
+}
+
+.video-player {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.2);
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 1.5;
+  color: #606060;
+}

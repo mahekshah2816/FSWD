@@ -1,0 +1,31 @@
+.sidebar {
+  width: 240px;
+  height: calc(100vh - 60px); /* full height minus navbar */
+  position: fixed;
+  top: 60px; /* below navbar */
+  left: 0;
+  background-color: white;
+  border-right: 1px solid #ddd;
+  padding-top: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: #333;
+  font-size: 15px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-item:hover,
+.sidebar-item.active {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  color: #cc0000;
+}
